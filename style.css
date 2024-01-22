@@ -1,0 +1,344 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.logo {
+  padding: 40px 70px 0px 70px;
+  display: flex;
+}
+
+.nicepage {
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.196);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.image {
+  height: 70%;
+  width: 90%;
+}
+
+.flex {
+  padding-top: 80px;
+}
+
+.breads {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 65px;
+}
+
+.nibh {
+  padding-top: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 17px;
+}
+
+.freepik {
+  font-size: 17px;
+  padding-top: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+}
+
+.button {
+  color: rgba(0, 0, 0, 0.775);
+}
+
+.read:hover {
+  background-color: white;
+  color: orange;
+  outline: 4px orange;
+}
+
+.read {
+  background-color: orange;
+  color: white;
+  border-radius: 70px;
+  padding: 15px 60px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  border: none;
+}
+
+/* Media queries for first page*/
+@media screen and (max-width: 430px) {
+  .logo {
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .nicepage {
+    font-size: 10px;
+  }
+
+  .image {
+    width: 30%;
+  }
+}
+
+/* Media querries  for first page ends   */
+.bakery-items {
+  background-color: orange;
+  min-height: 200vh;
+}
+
+.second-page {
+  margin: 10px 0px 0px 0px;
+  padding: 70px 0px 0px 0px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.headers {
+  /* padding: 0px 30px; */
+  text-align: center;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.items {
+  font-size: 60px;
+}
+
+.dius {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 100;
+  width: 70%;
+  margin: auto;
+}
+
+.meals {
+  /* margin-left:95px; */
+  display: flex;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.meals > div {
+  margin: 20px 10px;
+}
+
+/* .boxes{
+    display:flex;
+    min-height:200px;
+    width: 100%;
+    justify-content: space-around;
+} */
+
+.container {
+  background-color: white;
+  /* margin: 20px; */
+  width: 30%;
+}
+
+.sub-container {
+  background-color: white;
+  color: black;
+  min-width: 20vh;
+  text-align: center;
+  place-content: auto;
+  padding: 20px;
+}
+
+.sub-container > h3,
+h1,
+p {
+  padding: 12px 0px;
+}
+
+.sub-container > h1 {
+  color: orange;
+}
+
+.sub-container > p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* .first-row{
+  height: 20rem;
+} */
+
+.shots {
+  width: 100%;
+}
+
+.img-milk-bread {
+  width: 100%;
+}
+
+.last-row {
+  max-height: 20rem;
+}
+
+/* Media querries for second page mobile screen */
+@media screen and (max-width: 430px) {
+  .second-page {
+    background-color: orange;
+    margin: 10px 0px 0px 0px;
+    padding: 20px 0px 0px 10px;
+    width: 100%;
+    height: 1250vh;
+  }
+
+  .headers {
+    color: aliceblue;
+    /* font-family:'Trebuche' 'Lucida' Sans Unicode', 'Lucida Grande', 'Lucida Sans'; */
+    /* padding-right:80px; 
+        padding-left: 1px; */
+  }
+
+  .items {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .dius {
+    font-style: italic;
+    /* padding: 30px 160px; */
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .meals {
+    margin-left: 9px;
+  }
+
+  .boxes {
+    height: 90px;
+    justify-content: center;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sub-container {
+    max-height: 290px;
+  }
+
+  .first-row {
+    max-height: 20rem;
+    justify-content: center;
+  }
+
+  .shots {
+    width: 100%;
+  }
+
+  .last-row {
+    max-height: 20rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+}
+
+.third-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.476), rgba(0, 0, 0, 0.48)),
+    url(./image/pic01.jpeg.jpg);
+  min-width: 100%;
+}
+
+.header {
+  margin-top: 0px;
+  padding-top: 50px;
+  font-family: cursive;
+  text-align: center;
+  color: white;
+}
+
+.roll {
+  font-size: 60px;
+}
+
+.bake {
+  width: 70%;
+  margin: auto;
+  font-size: 25px;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 180px;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+.menu {
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 60px;
+  padding: 20px 40px;
+}
+
+.menu:hover {
+  background-color: rgba(232, 152, 4, 0.934);
+  color: white;
+}
+
+.order {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 60px;
+  padding: 18px 50px;
+}
+
+.order:hover {
+  background-color: white;
+  color: black;
+}
+
+.fourth-page {
+}
+
+.big{
+    font-size:40px;
+    font-family: cursive;
+    font-weight: 220;
+    text-align: center;      
+}
+
+.rows {
+  display: flex;
+  margin: 2px;
+  padding: 10px;
+  width: 100%;
+  /* grid-template-columns:40% 40% 40%;
+     grid-gap: 20px;
+    column-gap: 10px; */
+}
+
+.krod{
+  width: 90%;
+}
+
+.delicious {
+  font-size: 150%;
+  font-family: cursive;
+  text-align: center;
+  font-weight: 100;
+}
